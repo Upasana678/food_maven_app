@@ -31,5 +31,18 @@ public class CalculatorTest {
         assertEquals(Double.valueOf(2.0), result);
     }
 
+    @Test
+    public void test_multiply()
+    {
+        Double result = calculator.multiply(2.0,3.0);
+        assertEquals(Double.valueOf(6.0),result);
+    }
+    @Test
+    public void test_divide()
+    {
+        Double result = calculator.division(4.0,2.0);
+        assertEquals(Double.valueOf(2.0),result);
+    }
+
 
 }
